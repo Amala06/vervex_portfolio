@@ -2,7 +2,7 @@ import AboutCompany from "./Pages/Home/AboutCompany";
 import HeroSection from "./Pages/Home/HeroSection";
 import Navbar from "./Components/Navbar";
 // import AboutCompany from './Pages/Home/AboutCompany'
-// import { Route, Switch, BrowserRouter, Router, Routes } from "react-router-dom";
+// import { Route, BrowserRouter, Routes } from "react-router-dom";
 import "./app.css";
 
 import "./Styles/App.css";
@@ -12,13 +12,12 @@ function App() {
       <HeroSection />
       <AboutCompany />
       {/* <BrowserRouter>
-    <Navbar/>
-    <AboutCompany/>
-    <Routes>
-      <Route path="/" >
-      </Route>
-    </Routes>
-  </BrowserRouter> */}
+        <Navbar />
+        <AboutCompany />
+        <Routes>
+          <Route path="/"></Route>
+        </Routes>
+      </BrowserRouter> */}
       {/* <Test/> */}
     </div>
   );
