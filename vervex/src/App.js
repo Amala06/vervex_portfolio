@@ -13,22 +13,19 @@ import './app.css'
 import "./Styles/App.css"
 function App() {
   return (
-<<<<<<< HEAD
     <div className="App">
       <HeroSection />
       <AboutCompany />
-      {/* <Test/> */}
-    </div>
-=======
-    <BrowserRouter>
+          {/* <BrowserRouter>
     <Navbar/>
     <AboutCompany/>
     <Routes>
       <Route path="/" >
       </Route>
     </Routes>
-  </BrowserRouter>
->>>>>>> aff19679cddb277ef9b1d795ce23bc07b0b319c8
+  </BrowserRouter> */}
+      {/* <Test/> */}
+    </div>
   );
 }
 

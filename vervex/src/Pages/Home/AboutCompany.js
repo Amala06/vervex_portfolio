@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 // import "../../Style/ScrollScaleXComponent.css"; // Import the CSS file
-import "../../Styles/AboutCompany.css";
+import "../../Styles/AboutCompanySmall.css";
 import { ParallaxProvider, Parallax } from "react-scroll-parallax";
 
 const AboutCompany = () => {

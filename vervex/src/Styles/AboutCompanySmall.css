@@ -1,0 +1,25 @@
+.About_component {
+    width: 200px;
+    height: 70vh;
+    background-color: #f1f1f1;
+    transition: transform 0.8s ease-in-out;
+    background: linear-gradient(236.42deg, #8105E1 30.05%, rgba(0, 124, 124, 0) 127.3%);
+}
+
+.About_main {
+    height: 120vh;
+    background-color: var(--main-color);
+}
+
+.About_Comp_text {
+    color: "white";
+    /* position: "absolute";  */
+    margin-top: "-17rem";
+}
+
+@media (max-width: 768px) {
+    .About_component {
+        width: 150px;
+        height: 75px;
+    }
+}
