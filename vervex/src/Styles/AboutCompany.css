@@ -1,0 +1,49 @@
+.AC_mainDiv {
+  background: rgb(54, 73, 166);
+  background: linear-gradient(
+    216deg,
+    rgba(54, 73, 166, 1) 0%,
+    rgba(115, 18, 213, 1) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.AC_circle {
+  content: "";
+  /* top: 50%; */
+  /* left: 50%; */
+  /* transform: translate(-0%, -80%); */
+  right: 0;
+  height: 383px;
+  width: 246px;
+  border-radius: 350px 0px 0px 350px;
+  /* background-color: green; */
+  position: absolute;
+  background: radial-gradient(
+    197.26% 197.26% at 64.79% -97.26%,
+    rgba(184, 35, 237, 0.162) 0%,
+    rgba(251, 22, 228, 0) 0.01%,
+    rgba(145, 17, 229, 0.0968444) 65.1%,
+    rgba(44, 13, 231, 0.162011) 83.33%
+  );
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.AC_headText {
+  font-family: "inter";
+  font-size: 30px;
+  line-height: 36px;
+  color: #ffffff;
+  padding: 30px;
+}
+.AC_subText {
+  font-family: "Encode Sans";
+  font-size: 30px;
+  line-height: 42px;
+  width: 70%;
+  /* color: #ffffff; */
+ color:  rgba(231, 227, 227, 0.8);
+  padding: 40px;
+  margin-left: 290px;
+}
