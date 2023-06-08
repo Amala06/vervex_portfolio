@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import "../../Styles/AboutCompanySmall.css";
 import { ParallaxProvider, Parallax } from "react-scroll-parallax";
 
-const AboutCompany = () => {
+const SmallAboutCompany = () => {
   const [scaleX, setScaleX] = useState(1);
 
   useEffect(() => {
@@ -86,4 +86,4 @@ const AboutCompany = () => {
   );
 };
 
-export default AboutCompany;
+export default SmallAboutCompany;
