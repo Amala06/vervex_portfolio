@@ -8,12 +8,7 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-<<<<<<< HEAD
     "react-responsive-carousel": "^3.2.23",
-=======
-    "react-icons": "^4.9.0",
-    "react-router-dom": "^6.12.1",
->>>>>>> aff19679cddb277ef9b1d795ce23bc07b0b319c8
     "react-scripts": "^5.0.1",
     "react-scroll-parallax": "^3.4.2",
     "web-vitals": "^2.1.4"
