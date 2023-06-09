@@ -7,6 +7,7 @@ import { ParallaxProvider, Parallax } from "react-scroll-parallax";
 
 import { Route, Switch, BrowserRouter, Router, Routes } from "react-router-dom";
 import "./app.css";
+import CalltoAction from "./Components/CalltoAction";
 
 // import "./Styles/App.css";
 function App() {
@@ -21,6 +22,7 @@ function App() {
             <WhyUs />
           </Parallax>
         </ParallaxProvider>
+        <CalltoAction />
 
         {/* <AboutCompany/> */}
         <Routes>
