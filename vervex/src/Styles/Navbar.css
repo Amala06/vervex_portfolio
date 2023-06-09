@@ -8,7 +8,8 @@
     justify-content: space-between;
     align-items: center;
     color: #E7E3E3;
-    z-index: 99;
+    /* z-index: 99; */
+    /* position: sticky; */
     
 }
 .nav-logo{
@@ -55,6 +56,7 @@
     justify-content: center;
     position: fixed;
     top: 0;
+    z-index: 2;
     left: +100%;
     z-index: 2;
     transition: 850ms;
