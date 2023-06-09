@@ -1,6 +1,6 @@
 import React from "react";
 import { FaBars } from "react-icons/fa";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import * as IoIcons from "react-icons/io";
 import * as AiIcons from "react-icons/ai";
 export const SidebarData = [
