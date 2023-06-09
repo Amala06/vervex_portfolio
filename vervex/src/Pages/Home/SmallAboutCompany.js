@@ -10,7 +10,7 @@ const SmallAboutCompany = () => {
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
       const maxScroll = 300; // Maximum scroll position to trigger scaling
-      const maxScaleX = 11.6; // Maximum scaling factor
+      const maxScaleX = 9.41; // Maximum scaling factor
 
       // Calculate the new scaleX value based on scroll position
       const newScaleX = Math.min(
