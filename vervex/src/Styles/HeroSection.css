@@ -1,0 +1,138 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    /* background: var(--main-color); */
+}
+:root {
+    --main-color: #050d14;
+    --font-size: 16px;
+}
+.hero_container{
+    background-color: var(--main-color);
+    /* background-color: rgb(211, 46, 46); */
+    height: 100vh;
+    width: 100%;
+}
+.hero_circle{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    /* border:1px solid white; */
+    position: absolute;
+        /* width: 413px; */
+        /* height: 435px; */
+        left: 27px;
+        top: 140px;
+    background: radial-gradient(197.26% 197.26% at 64.79% -97.26%, rgba(184, 35, 237, 0.162) 0%, rgba(251, 22, 228, 0) 0.01%, rgba(145, 17, 229, 0.0968444) 65.1%, rgba(44, 13, 231, 0.162011) 83.33%)
+            /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+        ;
+
+        box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+        animation: moveUpDown 5s ease-in-out infinite;
+}
+@keyframes moveUpDown {
+
+    0%,
+    100% {
+        transform: translateY(0);
+        background: radial-gradient(197.26% 197.26% at 64.79% -97.26%, rgba(184, 35, 237, 0.162) 0%, rgba(251, 22, 228, 0) 0.01%, rgba(145, 17, 229, 0.0968444) 65.1%, rgba(44, 13, 231, 0.162011) 83.33%)
+                /* Starting position of the gradient */
+    }
+
+    50% {
+        transform: translateY(-70px);
+            background: radial-gradient(197.26% 197.26% at 64.79% -97.26%, rgba(172, 9, 232, 0.162) 0%, rgba(251, 22, 228, 0) 0.01%, rgba(243, 5, 247, 0.097) 65.1%, rgba(44, 13, 231, 0.162011) 83.33%)
+                /* Ending position of the gradient */
+        /* Adjust the translation distance as needed */
+    }
+}
+.hero_body{
+    display: grid;
+        grid-template-columns: 1fr 1fr;
+            height: 100%;
+        /* Two equal-width columns */
+        /* grid-gap: 10px; */
+        @media (max-width: 768px) {
+                grid-template-columns: 1fr;
+                /* Switch to a single column for smaller screens */
+            }
+}
+.hero_text_main{
+    background-color: #050d14;
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+    /* width: 50%; */
+}
+.hero_testimonial{
+    background-color: var(--main-color);
+}
+.hero_content{
+    position: absolute;
+        width: 443px;
+        height: 415px;
+        left: 10%;
+        top: 20%;
+        font-family: 'Roboto';
+        font-style: normal;
+        /* font-weight: 400; */
+        font-size: 2.5rem;
+        /* line-height: 56px; */
+        color: #FFFFFF;
+        @media (max-width: 768px) {
+                 
+                    width: auto;
+                    height: auto;
+                    /* left: 10%; */
+                    margin-right: 10%;
+                    top: 5%;
+                    right: 0;
+                    bottom: 0;
+                    transform: none;
+                    font-size: 1.5rem;
+                    text-align: center;
+                
+            }
+}
+.main_button{
+    position: absolute;
+        width: 222px;
+        height: 50px;
+        left: 2px;
+        top: 300px;
+    
+        background: linear-gradient(92.42deg, #9607DA 47.97%, #4F00F5 107.48%);
+        border-radius: 30px;
+        outline: none;
+        border: none;
+
+        @media (max-width:768px) {
+            position: absolute;
+                width: 152px;
+                height: 40px;
+                left: 23%;
+                top: 170px;
+            
+                background: linear-gradient(92.42deg, #9607DA 47.97%, #4F00F5 107.48%);
+                border-radius: 30px;
+                outline: none;
+                border: none;
+        }
+}
+.main_button:hover{
+    /* background: transparent; */
+ 
+background: linear-gradient(92.42deg, #b336ed 47.97%, #8855f7 107.48%);
+    color: white;
+    cursor: pointer;
+    /* border-image-radius: ; */
+    border-radius: 30px;
+    
+}
+.gradient-text {
+    background-image: linear-gradient(to right, #9607DA, #4F00F5);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}

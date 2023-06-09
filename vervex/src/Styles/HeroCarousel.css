@@ -1,0 +1,17 @@
+.my-carousel .thumbs-wrapper {
+    display: none;
+}
+.Carousel_container{
+    position: absolute;
+        /* margin-top: "20rem"; */
+        /* height: 100rem; */
+        /* background-color: yellow; */
+}
+.carousel-image {
+    margin-top: 10%;
+    height: 27rem;
+    margin-right: 1rem;
+    /* Adjust the width as needed */
+    /* height: auto; */
+    /* Automatically adjust the height based on the aspect ratio */
+}

@@ -6,7 +6,7 @@
     justify-content: center;
     margin-top: 60px;
     background-color: #050D14;
-    margin-top: -1px;
+    /* margin-top: -70px; */
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -28,7 +28,7 @@
       flex-wrap: wrap;
       margin-top: -70px;
       width: 80%;
-      padding-bottom: 50px;
+      padding-bottom: 90px;
 }
 .AU_section4_gridContainerDiv{
     padding: 20px;
@@ -59,7 +59,7 @@
 
 .AU_circle {
     content: "";
-    top: 62%;
+    top: 2%;
     /* left: 50%; */
     /* transform: translate(-0%, -80%); */
     /* right: 0; */
