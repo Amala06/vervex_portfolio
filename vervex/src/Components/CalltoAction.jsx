@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const CalltoAction = () => {
-  return (
-    <div>CalltoAction</div>
-  )
-}
+  return <div>Today i will create thus</div>;
+};
 
-export default CalltoAction
+export default CalltoAction;
