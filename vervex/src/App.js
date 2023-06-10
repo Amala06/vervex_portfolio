@@ -3,6 +3,8 @@ import HeroSection from "./Pages/Home/HeroSection";
 import Navbar from "./Components/Navbar";
 import WhyUs from "./Pages/Home/WhyUs";
 import AboutCompany from "./Pages/Home/AboutCompany";
+import Services from './Pages/Home/Service'
+import Footer from './Components/Footer'
 import { ParallaxProvider, Parallax } from "react-scroll-parallax";
 
 import { Route, Switch, BrowserRouter, Router, Routes } from "react-router-dom";
@@ -15,14 +17,16 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <Navbar />
-        <HeroSection />
-        <SmallAboutCompany />
+        {/* <HeroSection /> */}
+        {/* <SmallAboutCompany /> */}
         <ParallaxProvider>
           <Parallax speed={-10}>
             <WhyUs />
+            <Services/>
           </Parallax>
         </ParallaxProvider>
-        <CalltoAction />
+            <Footer/>
+        {/* <CalltoAction /> */}
 
         {/* <AboutCompany/> */}
         <Routes>
