@@ -14,7 +14,7 @@
     
 }
 .nav-logo{
-    font-size: 15px;
+    font-size: 24px;
     font-weight: bold;
     line-height: 30px;
     margin-left: 60px;
@@ -23,14 +23,14 @@
 }
 .nav-contact{
     font-family: 'Inter', sans-serif;
-    font-size: 14px;
+    font-size: 20px;
     line-height: 24px;
     font-weight: 700;
     cursor: pointer;
 }
 .nav-menu-bars{
     font-family: 'Inter', sans-serif;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 24px;
     font-weight: 600;
     margin-right: 60px;
