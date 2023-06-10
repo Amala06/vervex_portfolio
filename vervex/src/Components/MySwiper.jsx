@@ -20,7 +20,7 @@ const MySwiper = () => {
         // showIndicators={false}
       >
         <div>
-          <img src={img1} alt="" className="carousel-image" />
+          <img src={img1} alt="" />
           {/* <p className="legend">Image 1</p> */}
         </div>
         <div>
