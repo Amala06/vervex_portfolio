@@ -1,6 +1,5 @@
 .About_component {
-    /* margin-top: -1px;s */
-    width: 291px;
+    width: 200px;
     height: 70vh;
     background-color: #f1f1f1;
     transition: transform 0.8s ease-in-out;
@@ -9,6 +8,7 @@
 
 .About_main {
     height: 80vh;
+    /* width: 98.9vw; */
     background-color: var(--main-color);
 }
 

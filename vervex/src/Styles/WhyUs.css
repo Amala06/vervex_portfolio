@@ -85,7 +85,23 @@ box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
   border: 2px solid #DF04F2;
   border-left: 0px;
     
+        animation: moveUpDown 7s ease-in-out infinite;
+  }
+  @keyframes moveUpDown {
 
+      0%,
+      100% {
+          transform: translateY(0);
+          /* background: radial-gradient(197.26% 197.26% at 64.79% -97.26%, rgba(184, 35, 237, 0.162) 0%, rgba(251, 22, 228, 0) 0.01%, rgba(145, 17, 229, 0.0968444) 65.1%, rgba(44, 13, 231, 0.162011) 83.33%) */
+              /* Starting position of the gradient */
+      }
+
+      50% {
+          transform: translateY(-70px);
+          /* background: radial-gradient(197.26% 197.26% at 64.79% -97.26%, rgba(172, 9, 232, 0.162) 0%, rgba(251, 22, 228, 0) 0.01%, rgba(243, 5, 247, 0.097) 65.1%, rgba(44, 13, 231, 0.162011) 83.33%) */
+              /* Ending position of the gradient */
+              /* Adjust the translation distance as needed */
+      }
   }
 @media screen and (max-width: 1250px){
     .AU_section4_gridContainerDiv{

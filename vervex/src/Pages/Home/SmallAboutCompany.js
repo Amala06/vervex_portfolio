@@ -10,7 +10,7 @@ const SmallAboutCompany = () => {
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
       const maxScroll = 300; // Maximum scroll position to trigger scaling
-      const maxScaleX = 9.41; // Maximum scaling factor
+      const maxScaleX = 11.62; // Maximum scaling factor
 
       // Calculate the new scaleX value based on scroll position
       const newScaleX = Math.min(
@@ -78,7 +78,7 @@ const SmallAboutCompany = () => {
               </div>
             </Parallax>
           </div>
-          <div className="hero_circle"></div>
+          <div className="smallAbout_circle"></div>
         </Parallax>
         {/* <p>Some content...</p> */}
       </div>
