@@ -1,0 +1,126 @@
+.service_mainContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  flex-direction: column;
+}
+.service_mainHead {
+  border-bottom: 5px solid #8105e1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.service_mainHead_text {
+  margin-bottom: 8px;
+  font-family: "Nunito";
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 49px;
+  margin-left: 0;
+}
+.service_subHead{
+    font-family: 'Nunito';
+font-weight: 500;
+font-size: 16px;
+line-height: 22px;
+margin-top: 30px;
+}
+.service_boxContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:  #050d14;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    /* margin-bottom: 50px; */
+}
+.box_subContainer{
+    width: 90%;
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 30px;
+}
+.service_box1,.service_box2,.service_box3{
+    /* width: 200px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba(87, 6, 151, 0.48);
+border-radius: 30px;
+padding: 20px;
+cursor: pointer;
+    
+}
+.service_box1_text{
+    margin-top: 20px;
+    font-family: 'Nunito';
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+    border-bottom: 5px solid #8105e1;
+    /* width: 70%; */
+    margin-left: 0;
+    margin-bottom: 20px;
+}
+.service_box3_text{
+    margin-top: 20px;
+    font-family: 'Nunito';
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+    border-bottom: 5px solid #8105e1;
+    /* width: 80%; */
+    margin-left: 0;
+    margin-bottom: 20px;
+}
+/* .serivce_box_1_imageDiv,.serivce_box_2_imageDiv{
+    margin-top: 20px;
+    margin-bottom: 20px;
+} */
+.serivce_box_1_image{
+    width: 90%;
+    height: 90%;
+    margin-bottom: 20px;
+    animation: moveUpDown 5s ease-in-out infinite;
+}
+.serivce_box_2_image{
+    width: 95%;
+    height: 95%;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    animation: moveUpDown 5s ease-in-out infinite;
+}
+.serivce_box_3_image{
+    width: 95%;
+    height: 95%;
+    margin-bottom: 20px;
+    animation: moveUpDown 5s ease-in-out infinite;
+}
+@keyframes moveUpDown {
+
+    0%,
+    100% {
+        transform: translateY(0);
+       
+    }
+
+    50% {
+        transform: translateY(-30px);
+          
+    }
+}
+
+@media only screen and (max-width: 1180px){
+    .service_mainContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .service_subHead{
+        width: 80%;
+    }
+}
