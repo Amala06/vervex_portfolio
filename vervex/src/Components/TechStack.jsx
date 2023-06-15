@@ -24,7 +24,7 @@ const TechStack = () => {
               <div data-aos="zoom-in" className="tech_icon_container">
                 <FaReact data-aos="zoom-in" className="tech_icon" />
                 <AiFillHtml5 data-aos="zoom-in" className="tech_icon" />
-              
+
                 <FaCss3Alt data-aos="zoom-in" className="tech_icon" />
                 <FaJava className="tech_icon" data-aos="zoom-in" />
                 <FaNodeJs className="tech_icon" data-aos="zoom-in" />

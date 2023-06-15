@@ -14,26 +14,29 @@ import OurWork from "./Pages/Home/OurWork";
 import Temp from "./Pages/Temp";
 import Test from "./Pages/Test";
 import Window from "./Pages/Window";
+import Sticky_Our_Work from "./Pages/Sticky_Our_Work";
 
 // import "./Styles/App.css";
 function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <Navbar />
         {/* <HeroSection /> */}
-        {/* <SmallAboutCompany /> */}
+         <Navbar /> 
+        <HeroSection />
+        <SmallAboutCompany />
         <ParallaxProvider>
           <Parallax speed={-10}>
             <WhyUs />/
           </Parallax>
-        </ParallaxProvider>
-        {/* <HeroSection/> */}
-        <CalltoAction />
+        </ParallaxProvider> 
+       {/* <HeroSection/> */}
+        <CalltoAction /> 
         <TechStack />
         <ExtendedService />
         {/* <Temp /> */}
-        <div
+
+        {/* <div
           className="sticky_main_container"
           style={{
             height: "600vh",
@@ -44,10 +47,7 @@ function App() {
           <div
             style={{
               position: "sticky",
-              // border: "2px solid red",
-              // background: "blue",
-              // background:
-              //   "linear-gradient(236.42deg, #8105E1 30.05%, rgba(0, 124, 124, 0) 127.3%)",
+      
               zIndex: "400",
               width: "30rem",
               height: "37rem",
@@ -62,7 +62,7 @@ function App() {
                 color: "white",
                 fontSize: "40px",
                 lineHeight: "50px",
-                // top: "10000rem",
+             
                 padding: "20px",
                 paddingTop: "7rem",
                 paddingLeft: "3rem",
@@ -77,11 +77,8 @@ function App() {
                 color: "white",
                 margin: "5% 5%",
                 fontSize: "1rem",
-                // textAlign:"justify",
-                // lineHeight: "50px",
-                // top: "10000rem",
                 padding: "20px",
-                // paddingTop: "7rem",
+          
               }}
             >
               Discover our impressive portfolio of customized websites and web
@@ -97,7 +94,9 @@ function App() {
             </button>
           </div>
           <OurWork />
-        </div>{" "}
+        </div>{" "} */}
+        <Sticky_Our_Work />
+
         {/* <OurWork /> */}
         {/* <Test /> */}
         <Temp />

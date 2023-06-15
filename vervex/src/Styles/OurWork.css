@@ -6,6 +6,8 @@
     position: sticky;
     margin-top: -8rem;
     z-index: 100;
+    align-items: center;
+    justify-content: center;
     /* width: 100vw; */
     /* border: 2px solid yellow; */
     /* Set the desired height for the container */
@@ -54,4 +56,14 @@
             border-radius: 5%;
             border: 2px solid red;
             margin-bottom: 2rem;
+            display: flex;
+}
+@media only screen and (max-width: 600px){
+.OurWork_project {
+        width: 40rem;
+        height: 20rem;
+        border-radius: 5%;
+        border: 2px solid red;
+        margin-bottom: 2rem;
+    }
 }
