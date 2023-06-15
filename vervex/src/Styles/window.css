@@ -1,0 +1,20 @@
+.container {
+    position: relative;
+    background-color: #d417a5;
+    /* Background color of the main div */
+    height: 100vh;
+}
+
+.window {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: transparent;
+    opacity: 0.8;
+    /* Adjust the opacity as needed */
+}

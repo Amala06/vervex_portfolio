@@ -1,8 +1,8 @@
 .call_to_action_container{
-    background: linear-gradient(236.42deg, #8105E1 30.05%, rgba(0, 124, 124, 0) 127.3%);
+background: linear-gradient(236.42deg, #8105E1 30.05%, rgba(0, 124, 124, 0) 127.3%);
 width: 98.6vw;
 margin-top: 5rem;
-    height: 50vh;
+height: 50vh;
 }
 .call_to_action_text,.call_action_header {
            color: white;

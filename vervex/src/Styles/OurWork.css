@@ -1,0 +1,57 @@
+
+
+.Our_work_container {
+    display: flex;
+    height: 495vh;
+    position: sticky;
+    margin-top: -8rem;
+    z-index: 100;
+    /* width: 100vw; */
+    /* border: 2px solid yellow; */
+    /* Set the desired height for the container */
+}
+
+.sticky-div {
+    /* width: 30%; */
+    /* Set the width for the sticky div */
+    position: sticky;
+    top: 0;
+    background: linear-gradient(236.42deg, #8105E1 30.05%, rgba(0, 124, 124, 0) 127.3%);   /* Set the desired background color */
+    padding: 20px;
+    width: 50%;
+        /* overflow-y: auto; */
+    /* height: 100%; */
+}
+
+.our_work_scrollable-div {
+    width: 70vw;
+    /* Set the width for the scrollable div */
+    padding: 20px;
+    overflow-y: hidden;
+    /* overflow-y: auto; */
+    position: relative;
+    background-color: var(--main-colour);
+    margin-left: 30rem;
+    /* border: 2px solid red; */
+}
+.ourWork_Scroll{
+    color: white;
+}
+
+.OurWork_text{
+        /* margin-top: 2%; */
+            /* text-align: center; */
+            font-family: 'Encode Sans';
+            color: white;
+            font-size: 40px;
+            line-height: 50px;
+            margin-top: 50px;
+            padding: 20px;
+}
+.OurWork_project{
+    width: 40rem;
+        height: 20rem;
+            border-radius: 5%;
+            border: 2px solid red;
+            margin-bottom: 2rem;
+}

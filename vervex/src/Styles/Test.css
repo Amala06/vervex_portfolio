@@ -1,0 +1,16 @@
+.container {
+    width: 100%;
+    background-color: #eaeaea;
+    position: sticky;
+}
+
+.component {
+    height: 200px;
+        overflow-x: scroll;
+    /* Set the desired height */
+    background-color: #cd2727;
+    width: 100%;
+    /* Initial width of the component */
+    transition: width 0.3s ease;
+    /* Transition effect for smooth animation */
+}

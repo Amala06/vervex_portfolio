@@ -99,7 +99,7 @@
                 
             }
 }
-.main_button{
+.main_button,.OurWork_button{
     position: absolute;
         width: 222px;
         height: 50px;
@@ -133,6 +133,18 @@ background: linear-gradient(92.42deg, #b336ed 47.97%, #8855f7 107.48%);
     /* border-image-radius: ; */
     border-radius: 30px;
     
+}
+.OurWork_button{
+        left: 2rem;
+            top: 430px;
+            z-index: 200;
+}
+.OurWork_button:hover{
+    background: linear-gradient(92.42deg, #b336ed 47.97%, #8855f7 107.48%);
+        color: white;
+        cursor: pointer;
+        /* border-image-radius: ; */
+        border-radius: 30px;
 }
 .gradient-text {
     background-image: linear-gradient(to right, #9607DA, #4F00F5);
