@@ -23,6 +23,13 @@ background: var(--main-color);
     transition: color 0.3s ease-in-out;
     /* transition for smooth color change */
 }
+.tech_icon_text img{
+    width: 3rem;
+    height: 3rem;
+    color: #fcf7f7;
+    image-rendering: auto;
+    filter: invert(100%);
+}
 .tech_icon_text{
 font-size: 2rem;
 }

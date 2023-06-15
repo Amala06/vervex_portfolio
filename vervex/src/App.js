@@ -21,8 +21,8 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <Navbar />
-        <HeroSection />
-        <SmallAboutCompany />
+        {/* <HeroSection /> */}
+        {/* <SmallAboutCompany /> */}
         <ParallaxProvider>
           <Parallax speed={-10}>
             <WhyUs />/
@@ -39,8 +39,6 @@ function App() {
             height: "600vh",
             position: "relative",
             background: " var(--main-colour)",
-
-            // border: "2px solid red",
           }}
         >
           <div
