@@ -40,7 +40,7 @@ function App() {
         {/* </ParallaxProvider>  */}
        {/* <HeroSection/> */}
         {/* <CalltoAction />  */}
-        {/* <TechStack /> */}
+        <TechStack />
         {/* <ExtendedService /> */}
         {/* <Temp /> */}
 
