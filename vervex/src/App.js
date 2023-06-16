@@ -15,6 +15,7 @@ import Temp from "./Pages/Temp";
 import Test from "./Pages/Test";
 import Window from "./Pages/Window";
 import Sticky_Our_Work from "./Pages/Sticky_Our_Work";
+import Method from "./Pages/Method";
 
 // import "./Styles/App.css";
 function App() {
@@ -23,17 +24,17 @@ function App() {
       <div className="App">
         {/* <HeroSection /> */}
          <Navbar /> 
-        <HeroSection />
+        {/* <HeroSection />
         <SmallAboutCompany />
         <ParallaxProvider>
           <Parallax speed={-10}>
             <WhyUs />/
           </Parallax>
-        </ParallaxProvider> 
+        </ParallaxProvider>  */}
        {/* <HeroSection/> */}
-        <CalltoAction /> 
-        <TechStack />
-        <ExtendedService />
+        {/* <CalltoAction />  */}
+        {/* <TechStack /> */}
+        {/* <ExtendedService /> */}
         {/* <Temp /> */}
 
         {/* <div
@@ -95,10 +96,11 @@ function App() {
           </div>
           <OurWork />
         </div>{" "} */}
-        <Sticky_Our_Work />
+        {/* <Sticky_Our_Work /> */}
 
         {/* <OurWork /> */}
         {/* <Test /> */}
+        {/* <Method/> */}
         <Temp />
         {/* <Window/> */}
         {/* <TechStack/> */}
