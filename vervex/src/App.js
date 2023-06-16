@@ -27,27 +27,20 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-<<<<<<< HEAD
-        <Navbar />
-        <HeroSection />
-=======
         {/* <HeroSection /> */}
          <Navbar /> 
         {/* <HeroSection />
->>>>>>> temp1
         <SmallAboutCompany />
         <ParallaxProvider>
           <Parallax speed={-10}>
             <WhyUs />/
           </Parallax>
-<<<<<<< HEAD
         </ParallaxProvider>
         {/* <HeroSection/> */}
         <CalltoAction />
         <TechStack />
 
-=======
-        </ParallaxProvider>  */}
+        {/* </ParallaxProvider>  */} 
         {/* <HeroSection /> */}
         {/* <SmallAboutCompany /> */}
         {/* <ParallaxProvider> */}
@@ -129,7 +122,6 @@ function App() {
         {/* <Temp /> */}
         {/* <Window/> */}
         {/* <TechStack/> */}
->>>>>>> temp1
         {/* <AboutCompany/> */}
         <Routes>
           <Route path="/"></Route>
