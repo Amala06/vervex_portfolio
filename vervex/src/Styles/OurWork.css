@@ -1,0 +1,115 @@
+.Our_work_container {
+  display: flex;
+  height: 495vh;
+  position: sticky;
+  margin-top: -10rem;
+  z-index: 100;
+  align-items: center;
+  justify-content: center;
+  /* width: 100vw; */
+  /* border: 2px solid yellow; */
+  /* Set the desired height for the container */
+}
+
+.sticky-div {
+  /* width: 30%; */
+  /* Set the width for the sticky div */
+  position: sticky;
+  top: 0;
+  background: linear-gradient(
+    236.42deg,
+    #8105e1 30.05%,
+    rgba(0, 124, 124, 0) 127.3%
+  ); /* Set the desired background color */
+  padding: 20px;
+  width: 50%;
+  /* border: 1px solid green; */
+  /* overflow-y: auto; */
+  /* height: 100%; */
+}
+
+.our_work_scrollable-div {
+  width: 50vw;
+  /* Set the width for the scrollable div */
+  padding: 20px;
+  overflow-y: hidden;
+  /* overflow-y: auto; */
+  position: relative;
+  background-color: var(--main-colour);
+  margin-left: 40rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* border: 2px solid red; */
+}
+.ourWork_Scroll {
+  color: white;
+}
+
+.OurWork_text {
+  /* margin-top: 2%; */
+  /* text-align: center; */
+  font-family: "Encode Sans";
+  color: white;
+  font-size: 40px;
+  line-height: 50px;
+  margin-top: 50px;
+  padding: 20px;
+}
+.OurWork_project {
+  width: 40rem;
+  height: 20rem;
+  border-radius: 5%;
+  border: 2px solid  #8105E1;
+  margin-bottom: 2rem;
+  display: flex;
+}
+
+
+/* DIV 2 */
+.Our_work_container2{
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: none;
+}
+
+
+@media screen and (max-width: 1310px){
+    .our_work_scrollable-div{
+        margin-left: 32rem;
+
+    }
+    .OurWork_project{
+        width: 35rem;
+        height: 18.5rem;
+    }
+}
+@media screen and (max-width: 1120px){
+    .our_work_scrollable-div{
+        margin-left: 28rem;
+
+    }
+    .OurWork_project{
+        width: 30rem;
+        height: 15rem;
+    }
+}
+@media screen and (max-width: 1000px){
+    .Our_work_container{
+        display: none;
+    } 
+    .Our_work_container2{
+display: flex;
+    }
+}
+@media screen and (max-width: 510px){
+    .OurWork_project{
+        width: 80%;
+        /* height: 50%; */
+    }
+}
