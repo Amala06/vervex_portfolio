@@ -5,6 +5,7 @@ import "aos/dist/aos.css"; // You can also use <link> for styles
 import img from "../Images/lp.png"
 import { FaUserInjured } from "react-icons/fa";
 import { Parallax, ParallaxProvider } from "react-scroll-parallax";
+import img1 from '../Images/ex-services.png'
 // ..
 AOS.init();
 const ExtendedService = () => {
@@ -17,7 +18,7 @@ const ExtendedService = () => {
               <div className="extended_header">
                 <div className="extended_main_header">
                   <div className="hero_circle"></div>
-                  Web Development
+                 <span className="extended_HeadText">Web Development</span> 
                   <div className="extended_text">
                     Our customized web development service prioritizes seamless
                     functionality, intuitive interfaces, and optimized
@@ -26,7 +27,7 @@ const ExtendedService = () => {
                   </div>
                 </div>
                 <div className="extended_img">
-                  <img src={img} alt="" />
+                  <img src={img1} alt="" />
                 </div>
                 {/* <div className="hero_c"></div> */}
               </div>

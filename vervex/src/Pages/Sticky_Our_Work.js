@@ -1,62 +1,14 @@
-import React from 'react'
-import OurWork from './Home/OurWork';
-// import "../Styles/Sticky_Our_Work.css";
+import React from "react";
+import OurWork from "./Home/OurWork";
+import "../Styles/Sticky_Our_Work.css";
 const Sticky_Our_Work = () => {
   return (
     <>
-      <div
-        className="sticky_main_container"
-        style={{
-          height: "600vh",
-          position: "relative",
-          background: " var(--main-colour)",
-        //   border: "2px solid red",
-        }}
-      >
-        <div
-          style={{
-            position: "sticky",
-            // border: "2px solid red",
-            // background: "blue",
-            // background:
-            //   "linear-gradient(236.42deg, #8105E1 30.05%, rgba(0, 124, 124, 0) 127.3%)",
-            zIndex: "400",
-            width: "30rem",
-            height: "37rem",
-            top: "0",
-          }}
-        >
+      <div className="sticky_main_container">
+        <div className="Sticky_subContainer">
           <div className="hero_circle"></div>
-          <p
-            style={{
-              textAlign: "left",
-              fontFamily: "Encode Sans",
-              color: "white",
-              fontSize: "40px",
-              lineHeight: "50px",
-              // top: "10000rem",
-            //   border: "2px solid purple",
-              padding: "20px",
-              paddingTop: "7rem",
-              paddingLeft: "3rem",
-            }}
-          >
-            Our Work
-          </p>
-          <p
-            style={{
-              textAlign: "justify",
-              fontFamily: "Encode Sans",
-              color: "white",
-              margin: "5% 5%",
-              fontSize: "1rem",
-              // textAlign:"justify",
-              // lineHeight: "50px",
-              // top: "10000rem",
-              padding: "20px",
-              // paddingTop: "7rem",
-            }}
-          >
+          <div className="Sticky_headText">Our Work</div>
+          <p className="Sticky_subText">
             Discover our impressive portfolio of customized websites and web
             applications that exemplify our expertise in delivering seamless
             functionality, intuitive interfaces, and optimized performance. From
@@ -65,12 +17,13 @@ const Sticky_Our_Work = () => {
             cater to your unique requirements.
             <br />
           </p>
-          <button className="OurWork_button">Explore More</button>
+          {/* <button className="OurWork_button">Explore More</button> */}
+          <div className="Our_work_button">Explore More</div>
         </div>
         <OurWork />
       </div>
     </>
   );
-}
+};
 
-export default Sticky_Our_Work
+export default Sticky_Our_Work;

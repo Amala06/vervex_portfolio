@@ -23,17 +23,17 @@ function App() {
       <div className="App">
         {/* <HeroSection /> */}
          <Navbar /> 
-        <HeroSection />
-        <SmallAboutCompany />
-        <ParallaxProvider>
-          <Parallax speed={-10}>
-            <WhyUs />/
-          </Parallax>
-        </ParallaxProvider> 
+        {/* <HeroSection /> */}
+        {/* <SmallAboutCompany /> */}
+        {/* <ParallaxProvider> */}
+          {/* <Parallax speed={-10}> */}
+            {/* <WhyUs />/ */}
+          {/* </Parallax> */}
+        {/* </ParallaxProvider>  */}
        {/* <HeroSection/> */}
-        <CalltoAction /> 
-        <TechStack />
-        <ExtendedService />
+        {/* <CalltoAction />  */}
+        {/* <TechStack /> */}
+        {/* <ExtendedService /> */}
         {/* <Temp /> */}
 
         {/* <div
@@ -95,11 +95,11 @@ function App() {
           </div>
           <OurWork />
         </div>{" "} */}
-        <Sticky_Our_Work />
+        {/* <Sticky_Our_Work /> */}
 
         {/* <OurWork /> */}
         {/* <Test /> */}
-        <Temp />
+        {/* <Temp /> */}
         {/* <Window/> */}
         {/* <TechStack/> */}
         {/* <AboutCompany/> */}
