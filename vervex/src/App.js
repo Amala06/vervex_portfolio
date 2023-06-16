@@ -33,7 +33,9 @@ function App() {
         <SmallAboutCompany />
         <ParallaxProvider>
           <Parallax speed={-10}>
-            <WhyUs />/
+            <WhyUs />
+            <Sticky_Our_Work/>
+            <Testemonial/>
           </Parallax>
         </ParallaxProvider>
         {/* <HeroSection/> */}
