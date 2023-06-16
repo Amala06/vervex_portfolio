@@ -1,0 +1,434 @@
+* {
+  color: white;
+}
+.CU_mainContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.CU_gridContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
+  gap: 30px;
+  width: 90%;
+  margin-top: 30px;
+}
+.CU_Circle1 {
+  content: "";
+  top: 13%;
+  left: 0;
+  height: 411px;
+  width: 248px;
+  border-radius: 0px 350px 350px 0px;
+  position: absolute;
+  background: radial-gradient(
+    197.26% 197.26% at 64.79% -97.26%,
+    rgba(184, 35, 237, 0.162) 0%,
+    rgba(251, 22, 228, 0) 0.01%,
+    rgba(145, 17, 229, 0.0968444) 65.1%,
+    rgba(44, 13, 231, 0.162011) 83.33%
+  );
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: 1;
+}
+.CU_gridDiv1_text {
+  font-family: "Encode Sans";
+  font-size: 48px;
+  line-height: 66px;
+  color: #ffffff;
+  z-index: 2;
+  margin-top: 80px;
+}
+.CU_gridDIv2_image {
+  width: 90%;
+  /* height: 20%; */
+  margin-top: -30px;
+  animation: moveUpDown 5s ease-in-out infinite;
+}
+@keyframes moveUpDown {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-50px);
+  }
+}
+.CU_SpecialText {
+  margin-left: 0;
+  background: linear-gradient(92.42deg, #9607da 47.97%, #4f00f5 107.48%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 500;
+}
+.CU_inputMainContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+/* DIV 2 */
+.CU_gridContainer2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
+  gap: 30px;
+  width: 90%;
+  /* margin-top: 60px; */
+}
+.cu_gridDiv2_1 {
+  margin-top: 140px;
+}
+.CU_InputContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10%;
+}
+.CU_InputDiv {
+  z-index: 2;
+  border-bottom: 2px solid #9607da;
+  padding: 5px;
+  margin-top: 50px;
+}
+.CU_input {
+  width: 250px;
+  /* height: 100px; */
+  background-color: transparent;
+  border: none;
+}
+.CU_input:focus {
+  outline: none;
+}
+.CU_input::placeholder {
+  color: white;
+  font-size: 16px;
+  text-align: left;
+  padding-left: 5px;
+  font-family: "Encode Sans";
+  line-height: 20px;
+}
+.CU_InputContainer2 {
+  /* margin-left: 6%; */
+  width: 88%;
+}
+.CU_buttonContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35%;
+    padding: 4px;
+    margin-top: 40px;
+    margin-left: 40px;
+    font-family: 'Encode Sans';
+    cursor: pointer;
+font-size: 14px;
+line-height: 18px;
+font-weight: 400;
+background: linear-gradient(92.42deg, #9607DA 47.97%, #4F00F5 107.48%);
+border-radius: 30px;
+}
+
+/* DIV 2_2 */
+.cu_gridDiv2_2 {
+  /* position: relative; */
+  height: 120vh;
+}
+
+/* .cu_gridDiv2_2 .circle-container {
+  width: 111%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.circle-container {
+}  */
+
+/* .cu_gridDiv2_2 .CU_Circle2 {
+    
+  content: "";
+  right: 0;
+  margin-right: -20%;
+  height: 850px;
+  width: 850px;
+  border-radius: 50%;
+  position: absolute;
+  background: radial-gradient(
+      197.26% 197.26% at 64.79% -97.26%,
+      rgba(251, 22, 228, 0) 0.01%,
+      rgba(145, 17, 229, 0.145267) 65.1%,
+      rgba(44, 13, 231, 0.243017) 83.33%,
+      rgba(185, 2, 250, 0.3) 90.97%
+    )
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  /* z-index: 1; */
+/* } */
+.CU_Circle2{
+  content: "";
+  width: 47%;
+  height: 98%;
+  border-radius: 50%;
+  position: absolute;
+  background: radial-gradient(
+      197.26% 197.26% at 64.79% -97.26%,
+      rgba(251, 22, 228, 0) 0.01%,
+      rgba(145, 17, 229, 0.145267) 65.1%,
+      rgba(44, 13, 231, 0.243017) 83.33%,
+      rgba(185, 2, 250, 0.3) 90.97%
+    );
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.CU_CircleTextdiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* margin-top: 120px; */
+  z-index: 4;
+  position: absolute;
+}
+.CU_CircleText {
+  margin-top: 120px;
+  font-family: "Encode Sans";
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 45px;
+}
+.CU_CircleText2 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 33px;
+    width: 60%;
+    margin-top: 70px;
+    /* margin-left: 130px; */
+}
+
+/* @media screen and (max-width: 1487px){
+  .cu_gridDiv2_2 .CU_Circle2 {
+    height: 750px;
+  width: 750px;
+  }
+} */
+
+
+@media screen and (max-width: 1300px){
+  .CU_Circle2 {
+    /* height: 650px;
+  width: 650px; */
+  /* margin-left: 90px; */
+  }
+  .CU_CircleText2 {
+    font-size: 24px;
+    margin-top: 40px;
+    /* margin-left: 180px; */
+  }
+  .CU_CircleText{
+    font-size: 32px;
+    margin-left: 40px;
+  }
+  .CU_gridDIv2_image{
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 1257px){
+  .CU_gridContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .CU_gridDIv2_imageDiv{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+  }
+  .CU_gridDIv2_image{
+    width: 60%;
+    height: 60%;
+  }
+  .CU_Circle1{
+    height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  left: 35%;
+  }
+  .CU_gridContainer2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .CU_Circle2 {   
+    width: 60%;
+    height: 88%;
+  }
+   /* .circle-container {
+    width: 100%;
+  } */
+  .cu_gridDiv2_1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+  }
+  .CU_InputContainer{
+    width: 100%;
+  }
+  .CU_inputMainContainer{
+width: 100%;
+/* border: 1px solid red;/ */
+  }
+  .CU_InputContainer2{
+    width: 80%;
+    /* border: 1px solid green; */
+  }
+  .cu_gridDiv2_2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .CU_CircleTextdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+  }
+  .CU_CircleText{
+    margin: 0;
+    /* margin-top: 20px; */
+  }
+  .CU_CircleText2{
+    margin-top: 40px;
+    width: 50%;
+    /* margin-left: 40px; */
+    text-align: center;
+  }
+}
+@media screen and (max-width: 1000px){
+  .CU_Circle2 {
+    width: 75%;
+    height: 95%;
+  }
+  .CU_InputContainer2{
+    width: 100%;
+    /* border: 1px solid blue; */
+  }
+}
+@media screen and (max-width: 800px){
+  .CU_Circle2 {
+
+    width: 75%;
+    height: 75%;
+  }
+  .CU_CircleText{
+    font-size: 24px;
+  }
+  .CU_CircleText2{
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 600px){
+  .cu_gridDiv2_2{
+height: 80vh;
+  }
+  .CU_Circle2 {
+
+    width: 92%;
+    height: 75%;
+  }
+  .CU_CircleText{
+    font-size: 27px;
+  }
+  .CU_CircleText2{
+    font-size: 20px;
+  }
+  .CU_Circle1{
+    height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  left: 18%;
+  }
+  .CU_gridDIv2_image{
+    width: 80%;
+    height: 80%;
+  }
+  .CU_InputContainer{
+    flex-direction: column;
+    width: 100%;
+    /* border: 2px solid green; */
+  }
+  .CU_InputDiv{
+    width: 100%;
+  }
+  .input2{
+    width: 100%;
+  }
+.CU_inputMainContainer{
+    width: 100%;
+  }
+  .CU_buttonContainer{
+    width: 70%;
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 500px){
+  .CU_Circle1{
+    height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  left: 17%;
+  }
+  .CU_Circle2 {
+    width: 92%;
+    height: 61%;
+  }
+  .br{
+    display: none;
+  }
+  .cu_gridDiv2_2{
+    margin-top: -90px;
+  }
+  .CU_CircleText{
+    font-size: 20px;
+  }
+  .CU_CircleText2{
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  .CU_gridDIv2_image{
+    width: 100%;
+    margin-bottom: -100px;
+  }
+}
+@media screen and (max-width: 500px){
+  .CU_Circle2{
+    width: 94%;
+    height: 46%;
+  }
+  .CU_CircleText{
+    font-size: 18px;
+  }
+  .CU_CircleText2{
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 440px){
+  .CU_Circle2{
+    width: 97%;
+    height: 46%;
+  }
+  .CU_CircleText{
+    font-size: 18px;
+  }
+  .CU_CircleText2{
+    font-size: 13px;
+  }
+}

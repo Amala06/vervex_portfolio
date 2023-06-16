@@ -59,7 +59,7 @@
 
 .AU_circle {
     content: "";
-    top: 2%;
+    /* top: 2%; */
     /* left: 50%; */
     /* transform: translate(-0%, -80%); */
     /* right: 0; */

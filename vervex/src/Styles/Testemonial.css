@@ -1,0 +1,92 @@
+.Testemonial_MainContaier {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 30px;
+  /* margin-bottom: 40px; */
+}
+.Testemonial_headText{
+
+    font-family: 'Encode Sans';
+    font-size: 32px;
+    line-height: 50px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.Testemonial_SubContaier {
+  height: 400px;
+  position: relative;
+  width: 80%;
+  margin-top: 40px;
+  /* z-index: 2; */
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: rgba(87, 6, 151, 0.48);
+  border-radius: 30px;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  /* display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; */
+}
+
+.test_slide {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.test_slide_imageDiv {
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.test_image_slide {
+  height: 30%;
+  width: 25%;
+  border-radius: 50%;
+  margin-top: 40px;
+}
+.text_slide_image_text {
+  font-family: "Encode Sans";
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 300;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 20px;
+  width: 70%;
+}
+.TEST_circle {
+    content: "";
+    /* top: 2%; */
+    right: 0;
+    height: 583px;
+    width: 312px;
+    border-radius: 350px 0px 0px 350px;
+    position: absolute;
+    background: radial-gradient(197.26% 197.26% at 64.79% -97.26%, rgba(251, 22, 228, 0) 0.01%, rgba(145, 17, 229, 0.145267) 65.1%, rgba(44, 13, 231, 0.243017) 83.33%, rgba(185, 2, 250, 0.3) 90.97%) ;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }

@@ -10,6 +10,9 @@ import { ParallaxProvider, Parallax } from "react-scroll-parallax";
 import { Route, Switch, BrowserRouter, Router, Routes } from "react-router-dom";
 import "./app.css";
 import CalltoAction from "./Components/CalltoAction";
+import ContactsUs from "./Pages/ContactsUs";
+import Testemonial from "./Pages/Home/Testemonial";
+import ExtendedAboutus from "./Pages/ExtendedAboutus";
 import TechStack from "./Components/TechStack";
 
 // import "./Styles/App.css";
@@ -18,10 +21,8 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <Navbar />
-        <HeroSection />
-        <SmallAboutCompany />
-        <CalltoAction />
-        <TechStack />
+        {/* <HeroSection /> */}
+        {/* <SmallAboutCompany /> */}
         <ParallaxProvider>
           <Parallax speed={-10}>
             <WhyUs />
@@ -29,6 +30,7 @@ function App() {
           </Parallax>
         </ParallaxProvider>
             <Footer/>
+        {/* <CalltoAction /> */}
 
         {/* <AboutCompany/> */}
         <Routes>
