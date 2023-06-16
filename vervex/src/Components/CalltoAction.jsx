@@ -8,15 +8,20 @@ const CalltoAction = () => {
       <ParallaxProvider>
         <Parallax speed={6}>
           <div className="call_to_action_main">
-            <div className="call_to_action_container">
-              <h4 className="call_action_header">Call to Action</h4>
-              <div>
-                <p className="call_to_action_text">
-                  Ready to stand out in the online world? Our web solutions are
-                  tailored to meet your unique needs. Contact us now and let's
-                  create something amazing together!
-                </p>
-                <button className="call_to_action_button">CONTACT NOW</button>
+            <div className="call_to_action_sub">
+              <div className="call_to_action_sub1">
+                Call to action
+                <div className="call_to_action_sub1_text">
+                  Interested in our Services? Ready to Get More out of your
+                  budget?
+                  <br />
+                  Join us today!
+                </div>
+              </div>
+              <div className="call_to_action_sub2">
+                <div className="call_To_Action_button">
+                  Call to action
+                </div>
               </div>
             </div>
           </div>

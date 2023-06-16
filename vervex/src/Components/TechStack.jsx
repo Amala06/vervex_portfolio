@@ -17,9 +17,9 @@ const TechStack = () => {
       <ParallaxProvider>
         <Parallax speed={10}>
           <div className="tech_main">
-            <Parallax speed={7}>
+            <Parallax className="tech-sub" speed={7}>
               <div data-aos="zoom-in" className="tech_header">
-                Tech Stack
+               <span className="tech_header_text">Tech Stack </span> 
               </div>
               <div data-aos="zoom-in" className="tech_icon_container">
                 <FaReact data-aos="zoom-in" className="tech_icon" />
@@ -29,8 +29,7 @@ const TechStack = () => {
                 <FaJava className="tech_icon" data-aos="zoom-in" />
                 <FaNodeJs className="tech_icon" data-aos="zoom-in" />
                 <p
-                  className="tech_icon_text
-"
+                  className="tech_icon_text"
                   data-aos="zoom-in"
                 >
                   <img src={mg} alt="" />

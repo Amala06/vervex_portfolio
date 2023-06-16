@@ -31,6 +31,13 @@ function App() {
             <WhyUs />/
           </Parallax>
         </ParallaxProvider>  */}
+        {/* <HeroSection /> */}
+        {/* <SmallAboutCompany /> */}
+        {/* <ParallaxProvider> */}
+          {/* <Parallax speed={-10}> */}
+            {/* <WhyUs />/ */}
+          {/* </Parallax> */}
+        {/* </ParallaxProvider>  */}
        {/* <HeroSection/> */}
         {/* <CalltoAction />  */}
         {/* <TechStack /> */}
@@ -102,6 +109,7 @@ function App() {
         {/* <Test /> */}
         {/* <Method/> */}
         <Temp />
+        {/* <Temp /> */}
         {/* <Window/> */}
         {/* <TechStack/> */}
         {/* <AboutCompany/> */}
