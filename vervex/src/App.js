@@ -20,7 +20,7 @@ import Temp from "./Pages/Temp";
 import Test from "./Pages/Test";
 import Window from "./Pages/Window";
 import Sticky_Our_Work from "./Pages/Sticky_Our_Work";
-import Method from "./Pages/Method";
+// import Method from "./Pages/Method";
 
 // import "./Styles/App.css";
 function App() {
@@ -53,7 +53,7 @@ function App() {
        {/* <HeroSection/> */}
         {/* <CalltoAction />  */}
         <TechStack />
-        {/* <ExtendedService /> */}
+        <ExtendedService />
         {/* <Temp /> */}
 
         {/* <div
@@ -115,7 +115,7 @@ function App() {
           </div>
           <OurWork />
         </div>{" "} */}
-        {/* <Sticky_Our_Work /> */}
+        <Sticky_Our_Work />
 
         {/* <OurWork /> */}
         {/* <Test /> */}

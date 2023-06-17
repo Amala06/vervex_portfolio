@@ -27,7 +27,18 @@
   /* overflow-y: auto; */
   /* height: 100%; */
 }
-
+.OurWork_project {
+  /* box-sizing: border-box; */
+    width: 300px;
+      /* Adjust the width and height of the container to match your desired border size */
+      height: 200px;
+      border: 1px solid #000;
+    background-size: cover;
+      /* Adjust the image size to cover the container */
+      background-position: center;
+      /* Adjust the image position within the container */
+      background-repeat: no-repeat;
+}
 .our_work_scrollable-div {
   width: 50vw;
   /* Set the width for the scrollable div */
@@ -63,7 +74,18 @@
   border-radius: 5%;
   border: 2px solid  #8105E1;
   margin-bottom: 2rem;
-  display: flex;
+  /* display: flex; */
+      background-size: cover;
+        /* Adjust the image size to cover the container */
+        background-position: center;
+        /* Adjust the image position within the container */
+        background-repeat: no-repeat;
+  
+}
+.OurWork_project img{
+  width: 100%;
+  height: 100%;
+  border-radius: 5%;
 }
 
 
@@ -78,7 +100,30 @@
     display: none;
 }
 
+.ourwork_body_text{
+  /* background-color: grey; */
+  display: flex;
+  gap: 2%;
+  position: absolute;
+  margin-top: -10%;
+  text-align: left;
+  width: 98%;
+    /* width: 40rem; */
+  align-items: center;
+  justify-content: end;
 
+}
+.ourwork_small_text{
+  display: block;
+  background-color: #8105E1;
+  border-radius:10% ;
+  padding: 1%;
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        /* border: 1px solid rgba(255, 255, 255, 0.3); */
+        background: rgba(87, 6, 151, 0.48);
+}
 @media screen and (max-width: 1310px){
     .our_work_scrollable-div{
         margin-left: 32rem;
