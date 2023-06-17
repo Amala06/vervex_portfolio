@@ -132,12 +132,6 @@ const OurWork = () => {
             illum sed ea labore!
           </div>
         </div>
-     
-    
-     
-
-     
-    
       </div>
     </>
   );
