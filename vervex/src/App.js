@@ -29,16 +29,18 @@ function App() {
       <div className="App">
         {/* <HeroSection /> */}
          <Navbar /> 
-        {/* <HeroSection />
-        <SmallAboutCompany />
+         {/* <HeroSection /> */}
+        {/* <SmallAboutCompany /> */}
         <ParallaxProvider>
           <Parallax speed={-10}>
-            <WhyUs />
-            <Sticky_Our_Work/>
-            <Testemonial/>
+            {/* <WhyUs /> */}
+            
           </Parallax>
         </ParallaxProvider>
-        {/* <HeroSection/> */}
+        <TechStack/>
+            {/* <Sticky_Our_Work/> */}
+            {/* <Testemonial/> */}
+        {/* <HeroSection/> *
         <CalltoAction />
         <TechStack />
 
@@ -54,6 +56,8 @@ function App() {
         {/* <CalltoAction />  */}
         <TechStack />
         <ExtendedService />
+        {/* <TechStack /> */}
+        {/* <ExtendedService /> */}
         {/* <Temp /> */}
 
         {/* <div
@@ -120,7 +124,7 @@ function App() {
         {/* <OurWork /> */}
         {/* <Test /> */}
         {/* <Method/> */}
-        <Temp />
+        {/* <Temp /> */}
         {/* <Temp /> */}
         {/* <Window/> */}
         {/* <TechStack/> */}
