@@ -2,10 +2,12 @@ import React from "react";
 import "../../Styles/OurWork.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import img from "../../Images/sp.gif";
+import img from "../../Images/sp1.gif";
 import u from "../../Images/u.gif";
 import zo from "../../Images/zo.gif";
 import e from "../../Images/e.jpg";
+import lp from "../../Images/lp.jpg";
+
 // import img from "../../Images/pro.jpg";
 AOS.init();
 const OurWork = () => {
@@ -75,27 +77,21 @@ const OurWork = () => {
               {/* <p className="ourwork_small_text">Ecommerce</p> */}
             </div>
           </div>
+
           <div
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
             className="OurWork_project"
           >
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque,
-            esse sit explicabo magni autem soluta voluptatem in cupiditate error
-            temporibus, blanditiis deleniti quo. Hic, recusandae? Exercitationem
-            illum sed ea labore!
-          </div>
-          <div
-            data-aos="flip-left"
-            data-aos-easing="ease-out-cubic"
-            data-aos-duration="2000"
-            className="OurWork_project"
-          >
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque,
-            esse sit explicabo magni autem soluta voluptatem in cupiditate error
-            temporibus, blanditiis deleniti quo. Hic, recusandae? Exercitationem
-            illum sed ea labore!
+            <img src={lp} alt="" />
+            <div className="ourwork_body_text">
+              <p className="ourwork_small_text">React</p>
+              <p className="ourwork_small_text">Web Design</p>
+              <p className="ourwork_small_text">Religious</p>
+              {/* <p className="ourwork_small_text">Univerity App</p> */}
+              {/* <p className="ourwork_small_text">Ecommerce</p> */}
+            </div>
           </div>
           <div
             data-aos="flip-left"
@@ -109,28 +105,6 @@ const OurWork = () => {
             illum sed ea labore!
           </div>
 
-          <div
-            data-aos="flip-left"
-            data-aos-easing="ease-out-cubic"
-            data-aos-duration="2000"
-            className="OurWork_project"
-          >
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque,
-            esse sit explicabo magni autem soluta voluptatem in cupiditate error
-            temporibus, blanditiis deleniti quo. Hic, recusandae? Exercitationem
-            illum sed ea labore!
-          </div>
-          <div
-            data-aos="flip-left"
-            data-aos-easing="ease-out-cubic"
-            data-aos-duration="2000"
-            className="OurWork_project"
-          >
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque,
-            esse sit explicabo magni autem soluta voluptatem in cupiditate error
-            temporibus, blanditiis deleniti quo. Hic, recusandae? Exercitationem
-            illum sed ea labore!
-          </div>
           <div
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
@@ -158,131 +132,12 @@ const OurWork = () => {
             illum sed ea labore!
           </div>
         </div>
-      </div>
-      {/* DIV 2 */}
-      <div className="Our_work_container2">
-        <div
-          data-aos="flip-left"
-          data-aos-easing="ease-out-cubic"
-          data-aos-duration="2000"
-          className="OurWork_project"
-        >
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque, esse
-          sit explicabo magni autem soluta voluptatem in cupiditate error
-          temporibus, blanditiis deleniti quo. Hic, recusandae? Exercitationem
-          illum sed ea labore!
-        </div>
-        <div
-          data-aos="flip-left"
-          data-aos-easing="ease-out-cubic"
-          data-aos-duration="2000"
-          className="OurWork_project"
-        >
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque, esse
-          sit explicabo magni autem soluta voluptatem in cupiditate error
-          temporibus, blanditiis deleniti quo. Hic, recusandae? Exercitationem
-          illum sed ea labore!
-        </div>
-        <div
-          data-aos="flip-left"
-          data-aos-easing="ease-out-cubic"
-          data-aos-duration="2000"
-          className="OurWork_project"
-        >
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque, esse
-          sit explicabo magni autem soluta voluptatem in cupiditate error
-          temporibus, blanditiis deleniti quo. Hic, recusandae? Exercitationem
-          illum sed ea labore!
-        </div>
-        <div
-          data-aos="flip-left"
-          data-aos-easing="ease-out-cubic"
-          data-aos-duration="2000"
-          className="OurWork_project"
-        >
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque, esse
-          sit explicabo magni autem soluta voluptatem in cupiditate error
-          temporibus, blanditiis deleniti quo. Hic, recusandae? Exercitationem
-          illum sed ea labore!
-        </div>
-        <div
-          data-aos="flip-left"
-          data-aos-easing="ease-out-cubic"
-          data-aos-duration="2000"
-          className="OurWork_project"
-        >
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque, esse
-          sit explicabo magni autem soluta voluptatem in cupiditate error
-          temporibus, blanditiis deleniti quo. Hic, recusandae? Exercitationem
-          illum sed ea labore!
-        </div>
-        <div
-          data-aos="flip-left"
-          data-aos-easing="ease-out-cubic"
-          data-aos-duration="2000"
-          className="OurWork_project"
-        >
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque, esse
-          sit explicabo magni autem soluta voluptatem in cupiditate error
-          temporibus, blanditiis deleniti quo. Hic, recusandae? Exercitationem
-          illum sed ea labore!
-        </div>
-        <div
-          data-aos="flip-left"
-          data-aos-easing="ease-out-cubic"
-          data-aos-duration="2000"
-          className="OurWork_project"
-        >
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque, esse
-          sit explicabo magni autem soluta voluptatem in cupiditate error
-          temporibus, blanditiis deleniti quo. Hic, recusandae? Exercitationem
-          illum sed ea labore!
-        </div>
+     
+    
+     
 
-        <div
-          data-aos="flip-left"
-          data-aos-easing="ease-out-cubic"
-          data-aos-duration="2000"
-          className="OurWork_project"
-        >
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque, esse
-          sit explicabo magni autem soluta voluptatem in cupiditate error
-          temporibus, blanditiis deleniti quo. Hic, recusandae? Exercitationem
-          illum sed ea labore!
-        </div>
-        <div
-          data-aos="flip-left"
-          data-aos-easing="ease-out-cubic"
-          data-aos-duration="2000"
-          className="OurWork_project"
-        >
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque, esse
-          sit explicabo magni autem soluta voluptatem in cupiditate error
-          temporibus, blanditiis deleniti quo. Hic, recusandae? Exercitationem
-          illum sed ea labore!
-        </div>
-        <div
-          data-aos="flip-left"
-          data-aos-easing="ease-out-cubic"
-          data-aos-duration="2000"
-          className="OurWork_project"
-        >
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque, esse
-          sit explicabo magni autem soluta voluptatem in cupiditate error
-          temporibus, blanditiis deleniti quo. Hic, recusandae? Exercitationem
-          illum sed ea labore!
-        </div>
-        <div
-          data-aos="flip-left"
-          data-aos-easing="ease-out-cubic"
-          data-aos-duration="2000"
-          className="OurWork_project"
-        >
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque, esse
-          sit explicabo magni autem soluta voluptatem in cupiditate error
-          temporibus, blanditiis deleniti quo. Hic, recusandae? Exercitationem
-          illum sed ea labore!
-        </div>
+     
+    
       </div>
     </>
   );

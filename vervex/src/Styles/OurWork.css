@@ -33,7 +33,7 @@
       /* Adjust the width and height of the container to match your desired border size */
       height: 200px;
       border: 1px solid #000;
-    background-size: cover;
+      background-size: cover;
       /* Adjust the image size to cover the container */
       background-position: center;
       /* Adjust the image position within the container */

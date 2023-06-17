@@ -20,6 +20,8 @@ import Temp from "./Pages/Temp";
 import Test from "./Pages/Test";
 import Window from "./Pages/Window";
 import Sticky_Our_Work from "./Pages/Sticky_Our_Work";
+import GraphicDesgin from "./Pages/GraphicDesgin";
+import SEO from "./Pages/SEO";
 // import Method from "./Pages/Method";
 
 // import "./Styles/App.css";
@@ -53,9 +55,11 @@ function App() {
           {/* </Parallax> */}
         {/* </ParallaxProvider>  */}
        {/* <HeroSection/> */}
-        {/* <CalltoAction />  */}
-        <TechStack />
+        <CalltoAction /> 
+        {/* <TechStack /> */}
         <ExtendedService />
+        <GraphicDesgin/>
+        <SEO/>
         {/* <TechStack /> */}
         {/* <ExtendedService /> */}
         {/* <Temp /> */}
@@ -124,7 +128,7 @@ function App() {
         {/* <OurWork /> */}
         {/* <Test /> */}
         {/* <Method/> */}
-        {/* <Temp /> */}
+        <Temp />
         {/* <Temp /> */}
         {/* <Window/> */}
         {/* <TechStack/> */}
