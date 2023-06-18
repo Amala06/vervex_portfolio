@@ -29,15 +29,15 @@
 }
 .OurWork_project {
   /* box-sizing: border-box; */
-    width: 300px;
-      /* Adjust the width and height of the container to match your desired border size */
-      height: 200px;
-      border: 1px solid #000;
-      background-size: cover;
-      /* Adjust the image size to cover the container */
-      background-position: center;
-      /* Adjust the image position within the container */
-      background-repeat: no-repeat;
+  width: 300px;
+  /* Adjust the width and height of the container to match your desired border size */
+  height: 200px;
+  border: 1px solid #000;
+  background-size: cover;
+  /* Adjust the image size to cover the container */
+  background-position: center;
+  /* Adjust the image position within the container */
+  background-repeat: no-repeat;
 }
 .our_work_scrollable-div {
   width: 50vw;
@@ -72,35 +72,33 @@
   width: 40rem;
   height: 20rem;
   border-radius: 5%;
-  border: 2px solid  #8105E1;
+  border: 2px solid #8105e1;
   margin-bottom: 2rem;
   /* display: flex; */
-      background-size: cover;
-        /* Adjust the image size to cover the container */
-        background-position: center;
-        /* Adjust the image position within the container */
-        background-repeat: no-repeat;
-  
+  background-size: cover;
+  /* Adjust the image size to cover the container */
+  background-position: center;
+  /* Adjust the image position within the container */
+  background-repeat: no-repeat;
 }
-.OurWork_project img{
+.OurWork_project img {
   width: 100%;
   height: 100%;
   border-radius: 5%;
 }
 
-
 /* DIV 2 */
-.Our_work_container2{
-    /* border: 1px solid red; */
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    display: none;
+.Our_work_container2 {
+  /* border: 1px solid red; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: none;
 }
 
-.ourwork_body_text{
+.ourwork_body_text {
   /* background-color: grey; */
   display: flex;
   gap: 2%;
@@ -108,53 +106,50 @@
   margin-top: -10%;
   text-align: left;
   width: 98%;
-    /* width: 40rem; */
+  /* width: 40rem; */
   align-items: center;
   justify-content: end;
-
 }
-.ourwork_small_text{
+.ourwork_small_text {
   display: block;
-  background-color: #8105E1;
-  border-radius:10% ;
+  background-color: #8105e1;
+  border-radius: 10%;
   padding: 1%;
-      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-        backdrop-filter: blur(5px);
-        -webkit-backdrop-filter: blur(5px);
-        /* border: 1px solid rgba(255, 255, 255, 0.3); */
-        background: rgba(87, 6, 151, 0.48);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  /* border: 1px solid rgba(255, 255, 255, 0.3); */
+  background: rgba(87, 6, 151, 0.48);
 }
-@media screen and (max-width: 1310px){
-    .our_work_scrollable-div{
-        margin-left: 32rem;
-
-    }
-    .OurWork_project{
-        width: 35rem;
-        height: 18.5rem;
-    }
+@media screen and (max-width: 1310px) {
+  .our_work_scrollable-div {
+    margin-left: 32rem;
+  }
+  .OurWork_project {
+    width: 35rem;
+    height: 18.5rem;
+  }
 }
-@media screen and (max-width: 1120px){
-    .our_work_scrollable-div{
-        margin-left: 28rem;
-
-    }
-    .OurWork_project{
-        width: 30rem;
-        height: 15rem;
-    }
+@media screen and (max-width: 1120px) {
+  .our_work_scrollable-div {
+    margin-left: 28rem;
+  }
+  .OurWork_project {
+    width: 30rem;
+    height: 15rem;
+  }
 }
-@media screen and (max-width: 1000px){
-    .Our_work_container{
-        display: none;
-    } 
-    .Our_work_container2{
-display: flex;
-    }
+@media screen and (max-width: 1000px) {
+  .Our_work_container {
+    display: none;
+  }
+  .Our_work_container2 {
+    display: flex;
+  }
 }
-@media screen and (max-width: 510px){
-    .OurWork_project{
-        width: 80%;
-        /* height: 50%; */
-    }
+@media screen and (max-width: 510px) {
+  .OurWork_project {
+    width: 80%;
+    /* height: 50%; */
+  }
 }
