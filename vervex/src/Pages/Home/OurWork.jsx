@@ -141,9 +141,9 @@ const OurWork = () => {
        {/* div 2 */}
        <div className="Our_work_container2">
         <div
-            data-aos="flip-left"
-            data-aos-easing="ease-out-cubic"
-            data-aos-duration="2000"
+            // data-aos="flip-left"
+            // data-aos-easing="ease-out-cubic"
+            // data-aos-duration="2000"
             className="OurWork_project"
           >
             <img src={img} alt="" />
@@ -157,9 +157,9 @@ const OurWork = () => {
           </div>
           
           <div
-            data-aos="flip-left"
-            data-aos-easing="ease-out-cubic"
-            data-aos-duration="2000"
+            // data-aos="flip-left"
+            // data-aos-easing="ease-out-cubic"
+            // data-aos-duration="2000"
             className="OurWork_project"
           >
             <img src={zo} alt="" />
@@ -171,9 +171,9 @@ const OurWork = () => {
             </div>
           </div>
           <div
-            data-aos="flip-left"
-            data-aos-easing="ease-out-cubic"
-            data-aos-duration="2000"
+            // data-aos="flip-left"
+            // data-aos-easing="ease-out-cubic"
+            // data-aos-duration="2000"
             className="OurWork_project"
           >
             {" "}
@@ -189,9 +189,9 @@ const OurWork = () => {
             </div>
           </div>
           <div
-            data-aos="flip-left"
-            data-aos-easing="ease-out-cubic"
-            data-aos-duration="2000"
+            // data-aos="flip-left"
+            // data-aos-easing="ease-out-cubic"
+            // data-aos-duration="2000"
             className="OurWork_project"
           >
             <img src={u} alt="" />
@@ -205,9 +205,9 @@ const OurWork = () => {
           </div>
 
           <div
-            data-aos="flip-left"
-            data-aos-easing="ease-out-cubic"
-            data-aos-duration="2000"
+            // data-aos="flip-left"
+            // data-aos-easing="ease-out-cubic"
+            // data-aos-duration="2000"
             className="OurWork_project"
           >
             <img src={lp} alt="" />
@@ -220,9 +220,9 @@ const OurWork = () => {
             </div>
           </div>
           <div
-            data-aos="flip-left"
-            data-aos-easing="ease-out-cubic"
-            data-aos-duration="2000"
+            // data-aos="flip-left"
+            // data-aos-easing="ease-out-cubic"
+            // data-aos-duration="2000"
             className="OurWork_project"
           >
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque,
@@ -232,9 +232,9 @@ const OurWork = () => {
           </div>
 
           <div
-            data-aos="flip-left"
-            data-aos-easing="ease-out-cubic"
-            data-aos-duration="2000"
+            // data-aos="flip-left"
+            // data-aos-easing="ease-out-cubic"
+            // data-aos-duration="2000"
             className="OurWork_project"
           >
             <img src={img} alt="" />
@@ -247,9 +247,9 @@ const OurWork = () => {
             </div>
           </div>
           <div
-            data-aos="flip-left"
-            data-aos-easing="ease-out-cubic"
-            data-aos-duration="2000"
+            // data-aos="flip-left"
+            // data-aos-easing="ease-out-cubic"
+            // data-aos-duration="2000"
             className="OurWork_project"
           >
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque,
