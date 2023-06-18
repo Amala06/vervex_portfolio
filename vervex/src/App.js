@@ -128,7 +128,7 @@ function App() {
         {/* <OurWork /> */}
         {/* <Test /> */}
         {/* <Method/> */}
-        <Temp />
+        {/* <Temp /> */}
         {/* <Temp /> */}
         {/* <Window/> */}
         {/* <TechStack/> */}
