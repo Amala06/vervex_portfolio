@@ -67,7 +67,7 @@ function App() {
        <Footer/>
         <Routes>
           <Route path="/"></Route>
-        </Routes> */}
+        </Routes> 
 
       </div>
     </BrowserRouter>
