@@ -1,6 +1,7 @@
 import React from "react";
 import "../Styles/CalltoAction.css";
 import { ParallaxProvider, Parallax } from "react-scroll-parallax";
+import { NavLink } from "react-router-dom";
 
 const CalltoAction = () => {
   return (
@@ -19,9 +20,11 @@ const CalltoAction = () => {
                 </div>
               </div>
               <div className="call_to_action_sub2">
+                <NavLink className='navlink_vervex' to='/contactUs'>
                 <div className="call_To_Action_button">
                   Call to action
                 </div>
+                </NavLink>
               </div>
             </div>
           </div>

@@ -2,7 +2,10 @@ import React from "react";
 import "../Styles/ExtendedService.css";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
-import img from "../Images/seo.png";
+import img from "../Images/seo2.png";
+import img4 from '../Images/seo (1).png'
+import img2 from '../Images/seo (2).png'
+import img3 from '../Images/seo (3).png'
 import {
   Fa500Px,
   FaAssistiveListeningSystems,
@@ -42,15 +45,15 @@ const SEO = () => {
                 </div>
               </div>
               <div className="extended_img">
-                <img src={img1} alt="" />
+                <img src={img} alt="" />
               </div>
               {/* <div className="hero_c"></div> */}
             </div>
             {/* </Parallax> */}
             <div className="extended_cards_main">
               <div data-aos="zoom-in" className="extended_cards">
-                <div className="extended_icon">
-                  <FaDeezer />
+              <div className="extended_icon">
+                  <img className="extended_icon_image" src={img4} alt="" />
                 </div>
                 <div className="extended_icon_header"> KEYWORD RESEARCH</div>
                 <div className="extended_icon_text">
@@ -61,8 +64,8 @@ const SEO = () => {
                 </div>
               </div>
               <div data-aos="zoom-in" className="extended_cards">
-                <div className="extended_icon">
-                  <FaIntercom />
+              <div className="extended_icon">
+                  <img className="extended_icon_image" src={img2} alt="" />
                 </div>
                 <div className="extended_icon_header">ON-PAGE OPTIMIZATION</div>
                 <div className="extended_icon_text">
@@ -73,8 +76,8 @@ const SEO = () => {
                 </div>
               </div>
               <div data-aos="zoom-in" className="extended_cards">
-                <div className="extended_icon">
-                  <FaSchlix />
+              <div className="extended_icon">
+                  <img className="extended_icon_image" src={img3} alt="" />
                 </div>
                 <div className="extended_icon_header">
                   {" "}

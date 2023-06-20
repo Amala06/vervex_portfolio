@@ -5,6 +5,7 @@ import img1 from "../../Images/1.png";
 import img2 from "../../Images/2.png";
 import img3 from "../../Images/3.png";
 import gif from "../../Images/herogif.gif";
+import { NavLink } from "react-router-dom";
 const HeroSection = () => {
   return (
     <>
@@ -19,9 +20,11 @@ const HeroSection = () => {
               <span className="hero_gradient"> deploy </span>
               cutting-edge solutions.
             </div>
+            <NavLink className='navlink_vervex' to='/contactUs'>
             <div className="hero_button">
               Hire Us
             </div>
+            </NavLink>
           </div>
         </div>
         <div className="hero_subContainer2">

@@ -6,6 +6,12 @@ import img from "../Images/lp.png"
 import { FaAssistiveListeningSystems, FaBuilding, FaClone, FaTrello, FaUsb, FaUserInjured, FaYelp } from "react-icons/fa";
 import { Parallax, ParallaxProvider } from "react-scroll-parallax";
 import img1 from '../Images/ex-services.png'
+import img2 from '../Images/frontend.png'
+import img3 from '../Images/ecommerce.png'
+import img4 from '../Images/backend1.png'
+import img5 from '../Images/api.png'
+import img6 from '../Images/sass.png'
+import img7 from '../Images/support.png'
 // ..
 AOS.init();
 const ExtendedService = () => {
@@ -35,7 +41,7 @@ const ExtendedService = () => {
             <div className="extended_cards_main">
               <div data-aos="zoom-in" className="extended_cards">
                 <div className="extended_icon">
-                  <FaTrello />
+                  <img className="extended_icon_image" src={img2} alt="" />
                 </div>
                 <div className="extended_icon_header">
                   {" "}
@@ -49,8 +55,8 @@ const ExtendedService = () => {
                 </div>
               </div>
               <div data-aos="zoom-in" className="extended_cards">
-                <div className="extended_icon">
-                  <FaBuilding />
+              <div className="extended_icon">
+                  <img className="extended_icon_image" src={img3} alt="" />
                 </div>
                 <div className="extended_icon_header">
                   E-COMMERCE DEVELOPMENT
@@ -63,8 +69,8 @@ const ExtendedService = () => {
                 </div>
               </div>
               <div data-aos="zoom-in" className="extended_cards">
-                <div className="extended_icon">
-                  <FaClone />
+              <div className="extended_icon">
+                  <img className="extended_icon_image" src={img4} alt="" />
                 </div>
                 <div className="extended_icon_header">
                   {" "}
@@ -78,8 +84,8 @@ const ExtendedService = () => {
                 </div>
               </div>
               <div data-aos="zoom-in" className="extended_cards">
-                <div className="extended_icon">
-                  <FaUsb />
+              <div className="extended_icon">
+                  <img className="extended_icon_image" src={img5} alt="" />
                 </div>
                 <div className="extended_icon_header"> API DEVELOPEMNT </div>
                 <div className="extended_icon_text">
@@ -90,8 +96,8 @@ const ExtendedService = () => {
                 </div>
               </div>
               <div data-aos="zoom-in" className="extended_cards">
-                <div className="extended_icon">
-                  <FaAssistiveListeningSystems />
+              <div className="extended_icon">
+                  <img className="extended_icon_image" src={img6} alt="" />
                 </div>
                 <div className="extended_icon_header">SAAS APPLICATION</div>
                 <div className="extended_icon_text">
@@ -102,8 +108,8 @@ const ExtendedService = () => {
                 </div>
               </div>
               <div data-aos="zoom-in" className="extended_cards">
-                <div className="extended_icon">
-                  <FaYelp />
+              <div className="extended_icon">
+                  <img className="extended_icon_image" src={img7} alt="" />
                 </div>
                 <div className="extended_icon_header">
                   SUPPORT & MAINTENANCE{" "}

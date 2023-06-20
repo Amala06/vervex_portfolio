@@ -43,7 +43,11 @@ margin-top: 30px;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     gap: 30px;
 }
+.navlink_vervex{
+    text-decoration: none;
+}
 .service_box1,.service_box2,.service_box3{
+    text-decoration: none;
     /* width: 200px; */
     display: flex;
     align-items: center;
@@ -53,6 +57,7 @@ margin-top: 30px;
 border-radius: 30px;
 padding: 20px;
 cursor: pointer;
+height: 90%;
     
 }
 .service_box1_text{
@@ -65,36 +70,45 @@ cursor: pointer;
     /* width: 70%; */
     margin-left: 0;
     margin-bottom: 20px;
+    text-decoration: none;
 }
 .service_box3_text{
-    margin-top: 20px;
+    text-decoration: none;
+    margin-top: -10px;
     font-family: 'Nunito';
     font-weight: 600;
     font-size: 36px;
     line-height: 49px;
     border-bottom: 5px solid #8105e1;
     /* width: 80%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-left: 0;
     margin-bottom: 20px;
+    width: 40%;
 }
 /* .serivce_box_1_imageDiv,.serivce_box_2_imageDiv{
     margin-top: 20px;
     margin-bottom: 20px;
 } */
 .serivce_box_1_image{
+    margin-top: 30px;
     width: 90%;
     height: 90%;
     margin-bottom: 20px;
     animation: moveUpDown 5s ease-in-out infinite;
 }
 .serivce_box_2_image{
+    /* margin-top: 50px; */
     width: 95%;
     height: 95%;
-    margin-top: -20px;
+    margin-top: 20px;
     margin-bottom: 20px;
     animation: moveUpDown 5s ease-in-out infinite;
 }
 .serivce_box_3_image{
+    margin-top: 20px;
     width: 95%;
     height: 95%;
     margin-bottom: 20px;
