@@ -45,6 +45,10 @@ function App() {
        <CalltoAction/>
        <Testemonial/>
        <TechStack/>
+       <ExtendedAboutus/>
+       {/* <ExtendedService/> */}
+       {/* <ContactsUs/> */}
+       
        <Footer/>
         <Routes>
           <Route path="/"></Route>
