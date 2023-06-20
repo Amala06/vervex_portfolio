@@ -2,9 +2,11 @@ import React, { useState } from "react";
 import { FaBars } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { AiOutlineClose } from "react-icons/ai";
+ import {IoMdCall} from 'react-icons/io'
 import { SidebarData } from "./Sidebar";
 import "../Styles/Navbar.css";
 import { IconContext } from "react-icons/lib";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [sidebar, setSidebar] = useState(false);
@@ -15,10 +17,14 @@ const Navbar = () => {
       <IconContext.Provider value={{ color: "#fff" }}>
         <div className="main-Nav-div">
           <div className="nav-div-logo">
+            <NavLink className="navlink_vervex" to= '/'>
             <span className="nav-logo">VERVEX</span>
+            </NavLink>
           </div>
           <div className="nav-div-contact">
+          <NavLink className="navlink_vervex" to= '/contactUs'>
             <span className="nav-contact">CONTACT</span>
+            </NavLink>
           </div>
 
           <div className="navbar">

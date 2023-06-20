@@ -22,16 +22,31 @@ import Window from "./Pages/Window";
 import Sticky_Our_Work from "./Pages/Sticky_Our_Work";
 import GraphicDesgin from "./Pages/GraphicDesgin";
 import SEO from "./Pages/SEO";
-// import WorkFlow from './Pages/Home/WorkFlow'
-// import Method from "./Pages/Method";
+import Home from "./Pages/Home/Home";
+import  BackToScroll from './Components/BackToScroll'
 
 // import "./Styles/App.css";
 function App() {
   return (
     <BrowserRouter>
       <div className="App">
+        <BackToScroll/>
        <Navbar/>
-       <HeroSection/>
+       <Routes>
+       <Route path="/" element={<Home />} />
+       <Route path="/extendedAboutUs" element={<ExtendedAboutus />} />
+       <Route path="/contactUs" element={<ContactsUs />} />
+       <Route path="/extendedservices" element={<ExtendedService />} />
+       <Route path="/seo" element={<SEO />} />
+       <Route path="/graphicDesign" element={<GraphicDesgin />} />
+       </Routes>
+       <Footer/>
+       {/* <ExtendedAboutus/> */}
+       {/* <ContactsUs/> */}
+       {/* <ExtendedService/> */}
+       {/* <GraphicDesgin/> */}
+       {/* <SEO/> */}
+       {/* <HeroSection/>
        <SmallAboutCompany/>
        <ParallaxProvider>
         <Parallax speed={-10}>
@@ -48,7 +63,8 @@ function App() {
        <Footer/>
         <Routes>
           <Route path="/"></Route>
-        </Routes>
+        </Routes> */}
+
       </div>
     </BrowserRouter>
   );

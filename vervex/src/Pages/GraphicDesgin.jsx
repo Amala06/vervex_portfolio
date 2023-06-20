@@ -2,7 +2,11 @@ import React from "react";
 import "../Styles/ExtendedService.css";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
-import img from "../Images/lp.png";
+import img from "../Images/GD.png";
+import img21 from '../Images/ui (1).png'
+import img31 from '../Images/ui (2).png'
+import img41 from '../Images/ux.png'
+import img51 from '../Images/ui (4).png'
 import {
     Fa500Px,
   FaAssistiveListeningSystems,
@@ -40,15 +44,15 @@ const GraphicDesgin = () => {
                 </div>
               </div>
               <div className="extended_img">
-                <img src={img1} alt="" />
+                <img src={img31} alt="" />
               </div>
               {/* <div className="hero_c"></div> */}
             </div>
             {/* </Parallax> */}
             <div className="extended_cards_main">
               <div data-aos="zoom-in" className="extended_cards">
-                <div className="extended_icon">
-                  <Fa500Px />
+              <div className="extended_icon">
+                  <img className="extended_icon_image" src={img41} alt="" />
                 </div>
                 <div className="extended_icon_header"> UX DESIGN</div>
                 <div className="extended_icon_text">
@@ -59,8 +63,8 @@ const GraphicDesgin = () => {
                 </div>
               </div>
               <div data-aos="zoom-in" className="extended_cards">
-                <div className="extended_icon">
-                  <FaBuffer />
+              <div className="extended_icon">
+                  <img className="extended_icon_image" src={img21} alt="" />
                 </div>
                 <div className="extended_icon_header">
                   WIREFRAME & PROTOTYPING
@@ -73,8 +77,8 @@ const GraphicDesgin = () => {
                 </div>
               </div>
               <div data-aos="zoom-in" className="extended_cards">
-                <div className="extended_icon">
-                  <FaChromecast />
+              <div className="extended_icon">
+                  <img className="extended_icon_image" src={img51} alt="" />
                 </div>
                 <div className="extended_icon_header"> UI DESIGN </div>
                 <div className="extended_icon_text">

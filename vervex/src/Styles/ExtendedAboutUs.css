@@ -192,6 +192,7 @@
 }
 .EAU_hash_sub2 {
   width: 30%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .EAU_hashButton {
   background: linear-gradient(92.42deg, #9607da 47.97%, #4f00f5 107.48%);
@@ -207,6 +208,7 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  
 }
 .EAU_hashButton:hover {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -277,11 +279,17 @@ width:47%;
 }
 
 @media only screen and (max-width: 1191px){
-  .EAU_gridContainer2,.EAU_gridContainer3{
+  .EAU_gridContainer2{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+  }
+  .EAU_gridContainer3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
   }
   .EAU_grid2_headText,.EAU_grid3_headText{
     width: 100%;
