@@ -82,8 +82,10 @@ margin-left: 40px;
     }
     .Sticky_subText{
         font-size: 1.3rem;
+        text-align: justify;
     }
     .Sticky_subContainer{
             width: 100%;
     }
+   
 }

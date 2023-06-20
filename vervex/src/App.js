@@ -40,7 +40,7 @@ function App() {
        <Route path="/seo" element={<SEO />} />
        <Route path="/graphicDesign" element={<GraphicDesgin />} />
        </Routes>
-       <Footer/>
+       {/* <Footer/> */}
        {/* <ExtendedAboutus/> */}
        {/* <ContactsUs/> */}
        {/* <ExtendedService/> */}

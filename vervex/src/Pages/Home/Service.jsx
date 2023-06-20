@@ -12,9 +12,9 @@ const Service = () => {
       <div className="service_mainHead">
        <span className='service_mainHead_text'>Our Services</span> 
       </div>
-      <div className="service_subHead">
+      {/* <div className="service_subHead">
       "Unleashing the potential of the web through professional service delivery and development, producing significant digital solutions for businesses to succeed."
-      </div>
+      </div> */}
     </div>
       <div className="service_boxContainer">
         <div className="box_subContainer">

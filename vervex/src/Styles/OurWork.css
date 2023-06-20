@@ -73,7 +73,7 @@
   height: 20rem;
   border-radius: 5%;
   border: 2px solid #8105e1;
-  margin-bottom: 2rem;
+  margin-bottom: 6rem;
   /* display: flex; */
   background-size: cover;
   /* Adjust the image size to cover the container */
@@ -99,16 +99,21 @@
 }
 
 .ourwork_body_text {
-  /* background-color: grey; */
-  display: flex;
-  gap: 2%;
-  position: absolute;
-  margin-top: -10%;
-  text-align: left;
-  width: 98%;
-  /* width: 40rem; */
-  align-items: center;
-  justify-content: end;
+
+
+
+      display: flex;
+        gap: -3%;
+        /* position: absolute; */
+        gap: 2%;
+        margin-top: -10%;
+        text-align: center;
+        justify-content: center;
+        /* width: 98%; */
+        /* width: 40rem; */
+        align-items: center;
+        /* justify-content: end; */
+
 }
 .ourwork_small_text {
   display: block;
