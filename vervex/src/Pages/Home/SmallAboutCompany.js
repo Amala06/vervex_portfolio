@@ -35,39 +35,41 @@ const SmallAboutCompany = () => {
           {/* <img src="image.jpg" alt="Parallax Image" /> */}
           <div className="About_main">
             <div
+            
               className="About_component"
-              style={{ transform: `scaleX(${scaleX})` }}
+              // style={{ transform: `scaleX(${scaleX})` }}
             >
               {/* Content */}
               {/* Vervex is a dynamic software company at the forefront of */}
             </div>
             <Parallax speed={6}>
               <p
-                style={{
-                  color: "white",
-                  position: "absolute",
-                  marginTop: "-22rem",
-                  marginLeft: "16rem",
-                  marginRight: "16rem",
-                  fontFamily: "Roboto",
-                  fontSize: "1.3rem",
-                  textAlign: "justify",
-                }}
+                // style={{
+                //   color: "white",
+                //   position: "absolute",
+                //   marginTop: "-22rem",
+                //   marginLeft: "16rem",
+                //   marginRight: "16rem",
+                //   fontFamily: "Roboto",
+                //   fontSize: "1.3rem",
+                //   textAlign: "justify",
+                // }}
+                className="about_small_text"
               >
                 A Software Company
               </p>
               <div
                 className="About_Comp_text"
-                style={{
-                  color: "white",
-                  position: "absolute",
-                  marginTop: "-18rem",
-                  marginLeft: "16rem",
-                  marginRight: "16rem",
-                  fontFamily: "Roboto",
-                  fontSize: "1.7rem",
-                  textAlign: "justify",
-                }}
+                // style={{
+                //   color: "white",
+                //   position: "absolute",
+                //   marginTop: "-18rem",
+                //   marginLeft: "16rem",
+                //   marginRight: "16rem",
+                //   fontFamily: "Roboto",
+                //   fontSize: "1.7rem",
+                //   textAlign: "justify",
+                // }}
               >
                 Vervex is an Innovating businesses with cutting-edge software
                 solutions. We specialize in scalable web and mobile apps,

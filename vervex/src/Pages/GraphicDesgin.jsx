@@ -50,7 +50,7 @@ const GraphicDesgin = () => {
             </div>
             {/* </Parallax> */}
             <div className="extended_cards_main">
-              <div data-aos="zoom-in" className="extended_cards">
+              <div data-aos="zoom-in" className="extended_cards " >
               <div className="extended_icon">
                   <img className="extended_icon_image" src={img41} alt="" />
                 </div>
@@ -62,7 +62,7 @@ const GraphicDesgin = () => {
                   experiences for your audience.
                 </div>
               </div>
-              <div data-aos="zoom-in" className="extended_cards">
+              <div data-aos="zoom-in" className="extended_cards"  >
               <div className="extended_icon">
                   <img className="extended_icon_image" src={img21} alt="" />
                 </div>

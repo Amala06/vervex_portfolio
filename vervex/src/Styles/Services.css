@@ -10,6 +10,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 7%;
 }
 .service_mainHead_text {
   margin-bottom: 8px;
@@ -34,6 +35,7 @@ margin-top: 30px;
     color: white;
     margin-top: 50px;
     margin-bottom: 150px;
+    
     /* margin-bottom: 50px; */
 }
 .box_subContainer{
@@ -47,32 +49,31 @@ margin-top: 30px;
     text-decoration: none;
 }
 .service_box1,.service_box2,.service_box3{
-    text-decoration: none;
-    /* width: 200px; */
+    cursor: pointer;
+
+text-decoration: none;
+    /* width: 77%; */
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     background: rgba(87, 6, 151, 0.48);
-border-radius: 30px;
-padding: 20px;
-cursor: pointer;
-height: 90%;
+    border-radius: 30px;
+    padding: 18px;
+    cursor: pointer;
+    height: 90%;
     
 }
-.service_box1_text{
-    margin-top: 20px;
-    font-family: 'Nunito';
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 49px;
-    border-bottom: 5px solid #8105e1;
-    /* width: 70%; */
-    margin-left: 0;
-    margin-bottom: 20px;
-    text-decoration: none;
+.service_box1,.service_box2,.service_box3:hover{
+    
 }
-.service_box3_text{
+.service_box1_text,.service_box3_text{
+    
+    border-bottom: 3px solid #8105e1;
+    font-size: 1.4rem;
+
+}
+/* .service_box3_text{
     text-decoration: none;
     margin-top: -10px;
     font-family: 'Nunito';
@@ -80,22 +81,22 @@ height: 90%;
     font-size: 36px;
     line-height: 49px;
     border-bottom: 5px solid #8105e1;
-    /* width: 80%; */
+
     display: flex;
     align-items: center;
     justify-content: center;
     margin-left: 0;
     margin-bottom: 20px;
     width: 40%;
-}
+} */
 /* .serivce_box_1_imageDiv,.serivce_box_2_imageDiv{
     margin-top: 20px;
     margin-bottom: 20px;
 } */
 .serivce_box_1_image{
     margin-top: 30px;
-    width: 90%;
-    height: 90%;
+    width: 85%;
+    height: 85%;
     margin-bottom: 20px;
     animation: moveUpDown 5s ease-in-out infinite;
 }
@@ -123,7 +124,7 @@ height: 90%;
     }
 
     50% {
-        transform: translateY(-30px);
+        transform: translateY(-20px);
           
     }
 }
@@ -135,6 +136,17 @@ height: 90%;
         justify-content: center;
     }
     .service_subHead{
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .service_mainContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .service_subHead {
         width: 80%;
     }
 }

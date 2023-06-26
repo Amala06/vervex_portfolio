@@ -29,13 +29,13 @@ const Home = () => {
           {/* <ComputersCanvas/> */}
           <StarsCanvas/>
           </div>
-      {/* <SmallAboutCompany /> */}
+      <SmallAboutCompany />
       <ParallaxProvider>
         <Parallax speed={-10}>
           <WhyUs />
         </Parallax>
       </ParallaxProvider>
-      {/* <Sticky_Our_Work/> */}
+      <Sticky_Our_Work/>
        <Temp/>
        <Services/>
        <CalltoAction/>

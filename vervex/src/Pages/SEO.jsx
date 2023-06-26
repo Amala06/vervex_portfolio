@@ -51,7 +51,7 @@ const SEO = () => {
             </div>
             {/* </Parallax> */}
             <div className="extended_cards_main">
-              <div data-aos="zoom-in" className="extended_cards">
+              <div data-aos="zoom-in" className="extended_cards" style={{height:"28rem"}}>
               <div className="extended_icon">
                   <img className="extended_icon_image" src={img4} alt="" />
                 </div>
@@ -63,7 +63,7 @@ const SEO = () => {
                   insights and identify potential keyword opportunities.
                 </div>
               </div>
-              <div data-aos="zoom-in" className="extended_cards">
+              <div data-aos="zoom-in" className="extended_cards" style={{height:"28rem"}}>
               <div className="extended_icon">
                   <img className="extended_icon_image" src={img2} alt="" />
                 </div>
@@ -75,7 +75,7 @@ const SEO = () => {
                   crawlability.
                 </div>
               </div>
-              <div data-aos="zoom-in" className="extended_cards">
+              <div data-aos="zoom-in" className="extended_cards"style={{height:"28rem"}}>
               <div className="extended_icon">
                   <img className="extended_icon_image" src={img3} alt="" />
                 </div>

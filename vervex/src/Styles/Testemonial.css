@@ -90,3 +90,27 @@
     background: radial-gradient(197.26% 197.26% at 64.79% -97.26%, rgba(251, 22, 228, 0) 0.01%, rgba(145, 17, 229, 0.145267) 65.1%, rgba(44, 13, 231, 0.243017) 83.33%, rgba(185, 2, 250, 0.3) 90.97%) ;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
+    @media screen and (max-width: 768px) {
+      .Testemonial_SubContaier {
+        display: flex;
+        justify-content: center;
+      }
+  
+      .test_slide {
+        flex: 0 0 80%;
+        margin: 0 auto;
+      }
+  
+      .test_slide_imageDiv {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 1rem;
+      }
+  
+      .text_slide_image_text {
+        margin-top: 1rem;
+        font-size: 1rem;
+      }
+    }

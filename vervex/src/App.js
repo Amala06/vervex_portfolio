@@ -41,8 +41,31 @@ function App() {
        <Route path="/seo" element={<SEO />} />
        <Route path="/graphicDesign" element={<GraphicDesgin />} />
        </Routes>
-       <Footer/> 
-     
+       <Footer/>
+       {/* <ExtendedAboutus/> */}
+       {/* <ContactsUs/> */}
+       {/* <ExtendedService/> */}
+       {/* <GraphicDesgin/> */}
+       {/* <SEO/> */}
+       {/* <HeroSection/>
+       <SmallAboutCompany/>
+       <ParallaxProvider>
+        <Parallax speed={-10}>
+
+       <WhyUs/>
+        </Parallax>
+       </ParallaxProvider>
+       <Sticky_Our_Work/>
+       <Temp/>
+       <Services/>
+       <CalltoAction/>
+       <Testemonial/>
+       <TechStack/>
+       <Footer/>
+        <Routes>
+          <Route path="/"></Route>
+        </Routes> */}
+
       </div>
     </BrowserRouter>
   );
