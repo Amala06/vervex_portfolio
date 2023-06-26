@@ -13,7 +13,7 @@ const Temp = () => {
   return (
     <>
       <div className="main_flow">
-        <div className="hero_circle"></div>
+        {/* <div className="hero_circle"></div> */}
         <div className="main_flow_content">
           <p className="flow_header">Our Work Flow</p>
           <div className="h Temp_subContainer">

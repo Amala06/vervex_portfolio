@@ -24,13 +24,14 @@ import GraphicDesgin from "./Pages/GraphicDesgin";
 import SEO from "./Pages/SEO";
 import Home from "./Pages/Home/Home";
 import  BackToScroll from './Components/BackToScroll'
+import Hero_section2 from "./Pages/Home/Hero_section2";
 
 // import "./Styles/App.css";
 function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <BackToScroll/>
+        {/* <Home/> */}
        <Navbar/>
        <Routes>
        <Route path="/" element={<Home />} />
@@ -40,31 +41,8 @@ function App() {
        <Route path="/seo" element={<SEO />} />
        <Route path="/graphicDesign" element={<GraphicDesgin />} />
        </Routes>
-       <Footer/>
-       {/* <ExtendedAboutus/> */}
-       {/* <ContactsUs/> */}
-       {/* <ExtendedService/> */}
-       {/* <GraphicDesgin/> */}
-       {/* <SEO/> */}
-       {/* <HeroSection/>
-       <SmallAboutCompany/>
-       <ParallaxProvider>
-        <Parallax speed={-10}>
-
-       <WhyUs/>
-        </Parallax>
-       </ParallaxProvider>
-       <Sticky_Our_Work/>
-       <Temp/>
-       <Services/>
-       <CalltoAction/>
-       <Testemonial/>
-       <TechStack/>
-       <Footer/>
-        <Routes>
-          <Route path="/"></Route>
-        </Routes> */}
-
+       <Footer/> 
+     
       </div>
     </BrowserRouter>
   );
