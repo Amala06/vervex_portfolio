@@ -37,7 +37,11 @@ width: 98.6vw;
             text-align: "justify"
 }
 
-
+@media (max-width: 1189px){
+    .smallAbout_circle{
+        display: none;
+    }
+}
 @media (max-width: 768px) {
 
     .About_component{

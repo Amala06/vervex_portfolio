@@ -94,7 +94,7 @@ const OurWork = () => {
               {/* <p className="ourwork_small_text">Ecommerce</p> */}
             </div>
           </div>
-          <div
+          {/* <div
          data-aos="fade-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="1000"
@@ -104,7 +104,7 @@ const OurWork = () => {
             esse sit explicabo magni autem soluta voluptatem in cupiditate error
             temporibus, blanditiis deleniti quo. Hic, recusandae? Exercitationem
             illum sed ea labore!
-          </div>
+          </div> */}
 
           <div
          data-aos="fade-left"
@@ -121,7 +121,7 @@ const OurWork = () => {
               <p className="ourwork_small_text">Ecommerce</p>
             </div>
           </div>
-          <div
+          {/* <div
          data-aos="fade-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="1000"
@@ -131,7 +131,7 @@ const OurWork = () => {
             esse sit explicabo magni autem soluta voluptatem in cupiditate error
             temporibus, blanditiis deleniti quo. Hic, recusandae? Exercitationem
             illum sed ea labore!
-          </div>
+          </div> */}
         </div>
 
 
